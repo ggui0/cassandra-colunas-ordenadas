@@ -1,9 +1,11 @@
 # Projeto: Colunas Ordenadas com Apache Cassandra
 
 ## Missão
-Modelar um cenário usando **colunas ordenadas**, onde cada usuário pode ter um conjunto diferente de colunas, mas todos possuem a coluna.
+Modelar um cenário usando **colunas ordenadas**, onde cada usuário pode ter um conjunto diferente de colunas, e fazer as seguintes consultas:
+- Recuperar as colunas de um usuário específico
+- Recuperar apenas as colunas de ranking de filmes para um usuário.
 
-Este projeto segue o cenário da **Equipe 3: Colunas Ordenadas**.
+
 
 ---
 
