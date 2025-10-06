@@ -18,7 +18,6 @@ Este projeto segue o cenário da **Equipe 3: Colunas Ordenadas**.
 - bin/cassandra -R (rodar o cassandra)
 - cqlsh; (em outro terminal para criar a keyspace)
 
-> Em seguida: Em outro terminal, entre no root e digite ' cqlsh; '
           
 
 
