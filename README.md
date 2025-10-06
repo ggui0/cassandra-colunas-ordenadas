@@ -40,6 +40,24 @@ Tabela: `perfis`
 
 ---
 
+## Consultas 
+
+Colunas de um usuario específico:
+
+<img width="705" height="591" alt="usuarioEspecifico" src="https://github.com/user-attachments/assets/3638f728-1080-4527-80ec-83453d4fa37c" />
+
+
+
+Coluna de ranking de filme para um usuário:
+
+<img width="705" height="598" alt="ColunaDeFIlme" src="https://github.com/user-attachments/assets/1874fd2f-de97-43e7-86af-cb29c95061c5" />
+
+
+
+Toda a tabela mostrando que cada usuário tem um conjunto diferente de colunas:
+
+<img width="705" height="598" alt="DiferentesColunas" src="https://github.com/user-attachments/assets/1bf0bf74-c256-4af6-953c-335857448b43" />
+
 ## Criação da Tabela
 
 ```sql
@@ -52,3 +70,6 @@ CREATE TABLE perfis (
     value text,
     PRIMARY KEY (user_id, column_name)
 );
+
+
+
