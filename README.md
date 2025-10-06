@@ -14,6 +14,8 @@ Modelar um cenário usando **colunas ordenadas**, onde cada usuário pode ter um
 - Acesso ao **CQL Shell (cqlsh)**
 - Linux ou qualquer sistema com Cassandra configurado
 
+## Projeto feito no meu linux local, sem necessidade de nuvem.
+
 ## Comandos
 - su - (entrar no root)
 - cd /opt/cassandra (entrar no diretório)
