@@ -58,6 +58,18 @@ Tabela: `perfis`
 
 <img width="705" height="598" alt="DiferentesColunas" src="https://github.com/user-attachments/assets/1bf0bf74-c256-4af6-953c-335857448b43" />
 
+## Modelagem dos dados:
+	•	Você criou uma tabela (perfis) usando Cassandra, onde:
+	•	user_id é a chave primária, identificando cada usuário.
+	•	column_name e value representam cada coluna e seu valor, permitindo que cada usuário tenha um conjunto diferente de colunas.
+	•	Para mostrar flexibilidade:
+	•	Alguns usuários têm colunas como nome, idade, cidade, hobby e ranking_filmes.
+	•	Todos os usuários têm a coluna ranking_filmes, mas outros atributos variam, demonstrando a característica de linhas com colunas diferentes.
+
+## Conclusão
+	•	A modelagem foi feita para demonstrar linhas com colunas variáveis, uma característica típica de bancos NoSQL orientados a colunas, como Cassandra.
+	•	É ideal para aplicações que precisam de grande escalabilidade e leitura rápida de dados distribuídos, como sistemas de recomendação ou perfis de usuários em redes sociais.
+
 ## Criação da Tabela
 
 ```sql
