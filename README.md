@@ -12,9 +12,11 @@ Este projeto segue o cenário da **Equipe 3: Colunas Ordenadas**.
 - Acesso ao **CQL Shell (cqlsh)**
 - Linux ou qualquer sistema com Cassandra configurado
 
-> Inicialização: su - // entrar no root
-                 cd /opt/cassandra // entra no diretorio do cassandra
-                 bin/cassandra -R // rodar o cassandra
+## Comandos
+- su - (entrar no root)
+- cd /opt/cassandra (entrar no diretório)
+- bin/cassandra -R (rodar o cassandra)
+- cqlsh; (em outro terminal para criar a keyspace)
 
 > Em seguida: Em outro terminal, entre no root e digite ' cqlsh; '
           
