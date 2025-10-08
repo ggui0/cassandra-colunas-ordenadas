@@ -1,26 +1,15 @@
+INSERT INTO usuarios_perfis_ranking (id_user, user_name, filmes_assistidos, total_filmes)
+VALUES (1, 'João', ['O Poderoso Chefão', 'Forrest Gump'], 2);
 
-INSERT INTO perfis (user_id, column_name, value) VALUES ('1', 'nome', 'João');
-INSERT INTO perfis (user_id, column_name, value) VALUES ('1', 'idade', '28');
-INSERT INTO perfis (user_id, column_name, value) VALUES ('1', 'cidade', 'Rio de Janeiro');
-INSERT INTO perfis (user_id, column_name, value) VALUES ('1', 'ranking_filmes', 'Drama');
+INSERT INTO usuarios_perfis_ranking (id_user, user_name, filmes_assistidos, total_filmes)
+VALUES (2, 'Maria', ['Titanic', 'A Origem', 'Interestelar'], 3);
 
+INSERT INTO usuarios_perfis_ranking (id_user, user_name, filmes_assistidos, total_filmes)
+VALUES (3, 'Carlos', ['Gladiador', 'Clube da Luta', 'Matrix', 'Jurassic Park'], 4);
 
-INSERT INTO perfis (user_id, column_name, value) VALUES ('2', 'nome', 'Maria');
-INSERT INTO perfis (user_id, column_name, value) VALUES ('2', 'ranking_filmes', 'Comédia');
+INSERT INTO usuarios_perfis_ranking (id_user, user_name, filmes_assistidos, total_filmes)
+VALUES (4, 'Ana', ['Matrix', 'Interestelar'], 2);
 
+INSERT INTO usuarios_perfis_ranking (id_user, user_name, filmes_assistidos, total_filmes)
+VALUES (5, 'Pedro', ['Star Wars: Uma Nova Esperança'], 1);
 
-INSERT INTO perfis (user_id, column_name, value) VALUES ('3', 'nome', 'Carlos');
-INSERT INTO perfis (user_id, column_name, value) VALUES ('3', 'idade', '35');
-INSERT INTO perfis (user_id, column_name, value) VALUES ('3', 'hobby', 'Futebol');
-INSERT INTO perfis (user_id, column_name, value) VALUES ('3', 'ranking_filmes', 'Suspense');
-
-
-INSERT INTO perfis (user_id, column_name, value) VALUES ('4', 'nome', 'Ana');
-INSERT INTO perfis (user_id, column_name, value) VALUES ('4', 'cidade', 'São Paulo');
-INSERT INTO perfis (user_id, column_name, value) VALUES ('4', 'ranking_filmes', 'Romance');
-
-
-INSERT INTO perfis (user_id, column_name, value) VALUES ('5', 'nome', 'Pedro');
-INSERT INTO perfis (user_id, column_name, value) VALUES ('5', 'idade', '40');
-INSERT INTO perfis (user_id, column_name, value) VALUES ('5', 'ranking_filmes', 'Ação');
-INSERT INTO perfis (user_id, column_name, value) VALUES ('5', 'hobby', 'Leitura');
